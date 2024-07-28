@@ -2,7 +2,7 @@
 :root{
     --black:#000;
     --white:#fff;
-    --gray:#333;
+    --gray:#8a8989;
     --primary:#8BFBFF;
     --secondary:#FB38C8;
     --third:#FF602A;
@@ -133,13 +133,13 @@ header{
     margin-top: 30px;
     flex-basis: 50%;
 }
-.heading h3{
+.heading small{
     color: var(--gray);
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 900;
 }
-.heading h1{
+.heading h2{
     line-height: 20px;
     font-size: 50px;
     letter-spacing: -4px;
@@ -306,30 +306,30 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.portfolio .pi1{background-image: url(../img/web1.png )}
+.portfolio .pi1{background-image: url(../img/web1.webp )}
 .portfolio .pi2{
     background-image: url();
 }
 .portfolio .pi3{
-    background-image: url(../img/api1.png);
+    background-image: url(../img/api1.webp);
 }
 .portfolio .pi4{
-    background-image: url(../img/api2.png);
+    background-image: url(../img/api2.webp);
 }
 .portfolio .pi5{
     background-image: url();
 }
 .portfolio .pi6{
-    background-image: url(../img/bootstrap.png);
+    background-image: url(../img/bootstrap.webp);
 }
 .portfolio .pi7{
-    background-image: url(../img/web4.png);
+    background-image: url(../img/web4.webp);
 }
 .portfolio .pi8{
-    background-image: url(../img/calender.png);
+    background-image: url(../img/calender.webp);
 }
 .portfolio .pi9{
-    background-image: url(../img/stopwatch.png);
+    background-image: url(../img/stopwatch.webp);
 }
 .portfolio .pi10{
     background-image: url(../img);

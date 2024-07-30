@@ -568,3 +568,10 @@ header{
     }
 
 }
+@media screen and (max-width:820px ){
+    .header-img img{width: 400px; height: 400px;}
+}
+@media screen and (max-width:480px ){
+    .header-img img{width: 250px; height: 250px;}
+    .sec-dis .heading span{display: block; padding-top: 25px;}
+}

@@ -308,7 +308,7 @@ header{
 }
 .portfolio .pi1{background-image: url(../img/web1.webp )}
 .portfolio .pi2{
-    background-image: url(../img/iddo.png);
+    background-image: url(../img/iddo.webp);
 }
 .portfolio .pi3{
     background-image: url(../img/api1.webp);
@@ -317,7 +317,7 @@ header{
     background-image: url(../img/api2.webp);
 }
 .portfolio .pi5{
-    background-image: url(../img/sass.png);
+    background-image: url(../img/sass.webp);
 }
 .portfolio .pi6{
     background-image: url(../img/bootstrap.webp);

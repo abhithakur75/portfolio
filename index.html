@@ -4,221 +4,276 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hospital Website">
+    <meta name="description" content="Portfolio Website">
     <link rel="shortcut icon" href="/img/user.webp" type="image/x-icon">
     <title> Amazing Portfolio website || Web Addicted </title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <div class="pre-loader">
-        <i class="fas fa-spinner loader"></i>
-    </div>
-    <button class="day" name="day"><i class="fas fa-sun"></i></button>
-    <button class="night" name="night"> <i class="fas fa-moon"></i></button>
+<body>
     <header>
-
-        <nav class="navbar">
-            <h1><a href="index.html" class="logo">ABHI</a></h1>
-            <ul class="nav">
-                <li><a class="nav-btn1 active" href="#about">About</a></li>
-                <li><a class="nav-btn2" href="#skills">Skills</a></li>
-                <li><a class="nav-btn3" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-btn4" href="#services">Services</a></li>
-                <li><a class="nav-btn5" href="#contact">Contact</a></li>
-            </ul>
-            <i class="ham-btn fas fa-bars"></i>
-        </nav>
-        <div class="row sec-dis">
-            <div class="heading">
-                <small>I'm</small>
-                <h2>Abhishek <span>Singh</span>.</h2>
-                <h4>Web Developer</h4>
-                <p>Hello, I am a front-end developer, designer and creative person. I have experience of almost 1 month
-                    in designing and building websites.</p>
-                <button class="btn conbtn">Hire Me</button>
-            </div>
-            <div class="header-img">
-                <img src="img/user.webp" width="500px" height="400px" alt="">
+        <div class="container">
+            <div class="row justify-space-bet">
+                <div class="logo">
+                    <h1><a href="index.html" class="logo">ABHI</a></h1>
+                </div>
+                <nav class="nav">
+                    <ul class="flex">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="ham-burger"><i class="ham-btn fas fa-bars"></i></div>
             </div>
         </div>
-        <div class="effects">
-            <span></span>
-            <span></span>
-        </div>
-        <section class="section skills ">
-            <h1 class="section-title">expertise</h1>
-            <p class="section-desc">I have handfull experience in following skills and still learning and practicing
-                more and more.</p>
-            <div class="skill-container">
-                <div class="skill">
-                    <i class="fas fa-palette"></i>
-                    <h1>designer</h1>
-                    <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                    <h3>Languages I speak</h3>
-                    <p>HTML, CSS,</p>
-                    <h3>Design Tools:</h3>
-                    <p> photoshop, Figma, Bootstrap,Tailwind</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-laptop-code"></i>
-                    <h1>developer</h1>
-                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                    <h3>Languages I speak</h3>
-                    <p>JAvASCRIPT ,Sass,jquery</p>
-                    <h3>Dev Tools</h3>
-                    <p> slickslider, Bxslider, Github, Gitlab, Terminal, Command prompts</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-code"></i>
-                    <h1>Coder</h1>
-                    <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                    <h3>Languages I speak</h3>
-                    <p>React &Redux toolkit</p>
-                    <h3>Dev Tools</h3>
-                    <p>React, Redux toolkit, Axios, React-router-dom</p>
-                </div>
-            </div>
-        </section>
-        <section class="section portfolios ">
-            <h1 class="section-title">portfolio</h1>
-            <p class="section-desc">Here are a few design projects I've worked on recently. Want to see more? <a
-                    href="mailto:waseemaofficial@gmail.com">Email me</a>.</p>
-            <div class="portfolio-container">
-
-                <div class="portfolio">
-                    <div class="img pi1">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive hospital service website.</p>
-                        <button class="btn"><a href="https://medical-hospital75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi2">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive <br> E-scooter service website.</p>
-                        <button class="btn"><a href=""></a>View Website</a> &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi3">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive openweather service website made with using api.</p>
-                        <button class="btn"> <a href="https://weatherapi75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi4">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive food recipie website made with using api.</p>
-                        <button class="btn"> <a href="https://foodrecipie75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi5">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive website made with Sass.</p>
-                        <button class="btn"><a href="https://abhithakur75.github.io/Designer-sass/">View Website</a> &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi6">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive website made with bootstrap.</p>
-                        <button class="btn"><a href="https://creative75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi7">
-                        <p class="portfolio-desc">
-                            Results-oriented, calculator service website using Javascript.</p>
-                        <button class="btn"><a href="https://calculator7535.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi8">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive calendar service website.</p>
-                        <button class="btn"><a href="https://calender75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="img pi9">
-                        <p class="portfolio-desc">
-                            Results-oriented, responsive stopwatch service website.</p>
-                        <button class="btn"><a href="https://stopwatch75.netlify.app/">View Website</a>
-                            &#x0003E;</button>
-                    </div>
-                </div>
-               
-            </div>
-        </section>
-
-        <section class="section services ">
-            <h1 class="section-title">Services</h1>
-            <p class="section-desc">I'm a bit of a digital product junky. Over the years, I've used hundreds of web and
-                mobile apps in different industries and verticals.</p>
-            <div class="services-container">
-                <div class="service">
-                    <i class="fas fa-fast-forward"></i>
-                    <h1>Fast</h1>
-                    <p>Fast load times and lag free interaction, my highest priority.</p>
-                </div>
-                <div class="service">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h1>Responsive</h1>
-                    <p>My layouts will work on any device, big or small.</p>
-                </div>
-                <div class="service">
-                    <i class="fas fa-lightbulb"></i>
-                    <h1>Intuitive</h1>
-                    <p>Strong preference for easy to use, intuitive UX/UI.</p>
-                </div>
-                <div class="service">
-                    <i class="fas fa-rocket"></i>
-                    <h1>Dynamic</h1>
-                    <p>Websites don't have to be static, I love making pages come to life.</p>
-                </div>
-                <div class="service">
-                    <i class="fas fa-clock"></i>
-                    <h1>on time</h1>
-                    <p>Delivery on time with no issues and bugs.</p>
-                </div>
-                <div class="service">
-                    <i class="fas fa-layer-group"></i>
-                    <h1>front-end</h1>
-                    <p>front-end developer, anykind of front-end  work</p>
-                </div>
-            </div>
-        </section>
-        <section class="section contact ">
-            <h1 class="section-title">Contact</h1>
-            <p class="section-desc">Have a question or want to work together? Contact me now or send a email <a
-                    href="mailto:waseemaofficial@gmail.com">here</a>.</p>
-            <div class="contact-container">
-
-                <form class="contact-form">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="text" placeholder="Subject">
-                    <textarea name="message" placeholder="Message Here..."></textarea>
-                    <button class="btn">Send</button>
-                </form>
-
-            </div>
-        </section>
     </header>
+    <div class="banner" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-p-12">
+                    <div class="heading">
+                        <small>I'm</small>
+                        <h2>Abhishek <span>Singh</span>.</h2>
+                        <h3>Web Developer</h3>
+                        <p>Hello, I am a front-end developer, designer and creative person. I have experience of almost
+                            1 month
+                            in designing and building websites.</p>
+                        <button class="btn conbtn">Hire Me</button>
+                    </div>
+                </div>
+                <div class="col-6 col-p-12">
+                    <div class="text-center">
+                        <img src="img/user.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>expertise</h2>
+                    <p class="section-desc">I have handfull experience in following skills and still learning and
+                        practicing more and more.</p>
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="skill">
+                        <i class="fas fa-palette"></i>
+                        <h3>designer</h3>
+                        <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                        <h4>Languages I speak</h4>
+                        <p>HTML, CSS,</p>
+                        <h4>Design Tools:</h4>
+                        <p> photoshop, Figma, Bootstrap,Tailwind</p>
+                    </div>
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="skill">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>developer</h3>
+                        <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                        <h4>Languages I speak</h4>
+                        <p>JAvASCRIPT ,Sass,jquery</p>
+                        <h4>Dev Tools</h4>
+                        <p> slickslider, Bxslider, Github, Gitlab, Terminal, Command prompts</p>
+                    </div>
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Coder</h3>
+                        <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
+                        <h4>Languages I speak</h4>
+                        <p>React &Redux toolkit</p>
+                        <h4>Dev Tools</h4>
+                        <p>React, Redux toolkit, Axios, React-router-dom</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>portfolio</h2>
+                    <p class="section-desc">Here are a few design projects I've worked on recently. Want to see more?
+                        <a href="mailto:abhisheksingh07535@gmail.com">Email me</a>.
+                    </p>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi1">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive hospital service website.</p>
+                            <button class="btn"><a href="https://medical-hospital75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi2">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive <br> E-scooter service website.</p>
+                            <button class="btn"><a href=""></a>View Website</a> &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi3">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive openweather service website made with using api.</p>
+                            <button class="btn"> <a href="https://weatherapi75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi4">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive food recipie website made with using api.</p>
+                            <button class="btn"> <a href="https://foodrecipie75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi5">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive website made with Sass.</p>
+                            <button class="btn"><a href="https://abhithakur75.github.io/Designer-sass/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi6">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive website made with bootstrap.</p>
+                            <button class="btn"><a href="https://creative75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi7">
+                            <p class="portfolio-desc">
+                                Results-oriented, calculator service website using Javascript.</p>
+                            <button class="btn"><a href="https://calculator7535.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi8">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive calendar service website.</p>
+                            <button class="btn"><a href="https://calender75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="portfolio">
+                        <div class="img pi9">
+                            <p class="portfolio-desc">
+                                Results-oriented, responsive stopwatch service website.</p>
+                            <button class="btn"><a href="https://stopwatch75.netlify.app/">View Website</a>
+                                &#x0003E;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Services</h2>
+                    <p class="section-desc">I'm a bit of a digital product junky. Over the years, I've used hundreds of
+                        web and mobile apps in different industries and verticals.</p>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-fast-forward"></i>
+                        <h3>Fast</h3>
+                        <p>Fast load times and lag free interaction, my highest priority.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive</h3>
+                        <p>My layouts will work on any device, big or small.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Intuitive</h3>
+                        <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Dynamic</h3>
+                        <p>Websites don't have to be static, I love making pages come to life.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-clock"></i>
+                        <h3>on time</h3>
+                        <p>Delivery on time with no issues and bugs.</p>
+                    </div>
+                </div>
+                <div class="col-4 col-t-6 col-p-12">
+                    <div class="service">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>front-end</h3>
+                        <p>front-end developer, anykind of front-end work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Contact</h2>
+                    <p class="section-desc">Have a question or want to work together? Contact me now or send a email
+                         <a class="email" href="mailto:abhisheksingh07535@gmail.com">here</a>.</p>
+
+                    <form class="contact-form">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email Address">
+                        <input type="text" placeholder="Subject">
+                        <textarea name="message" placeholder="Message Here..."></textarea>
+                        <button class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="js/script.js"></script>
 </body>
 
